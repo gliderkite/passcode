@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PassCode</string>
+    <string name="username_prompt">Username</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="username_hint2">Username</string>
+    <string name="password_prompt">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="password_hint2">Password</string>
+    <string name="service_hint">Service</string>
+    <string name="login_prompt">Login</string>
+    <string name="register_prompt">Register</string>
+    <string name="title_activity_list">PassCode</string>
+    <string name="new_credential_prompt">Add Credential</string>
+</resources>

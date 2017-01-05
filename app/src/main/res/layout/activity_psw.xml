@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gliderkite.pswcode.PswActivity">
+
+    <EditText
+        android:id="@+id/ServiceET"
+        android:layout_below="@id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/service_hint" />
+
+    <EditText
+        android:id="@+id/UsernameET"
+        android:layout_below="@id/ServiceET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_hint2" />
+
+    <EditText
+        android:id="@+id/PasswordET"
+        android:layout_below="@id/UsernameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint2"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_below="@id/PasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_credential_prompt"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/AddButton"
+        android:layout_marginTop="10dp">
+    </ListView>
+
+</RelativeLayout>
